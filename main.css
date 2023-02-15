@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 body
@@ -32,7 +32,6 @@ body
 .container .left-side 
 {
     position: relative;
-    background: #147C95;
     padding: 50px;
 }
 
@@ -67,7 +66,6 @@ body
 
 .profile-text h2
 {
-    color: #fff;
     font-size: 1.4em;
     margin-top: 20px;
     text-transform: uppercase;
@@ -84,16 +82,17 @@ body
 
 .contact-info 
 {
-    padding-top: 40px;
+    padding-top: 25px;
 }
 
 .title
 {
-    color: #fff;
     text-transform: uppercase;
     font-weight: 600;
+    font-size: 20px;
     letter-spacing: 1px;
     margin-bottom: 20px;
+    border-bottom: 1px #000 solid;
 }
 
 .contact-info ul
@@ -114,19 +113,16 @@ body
     display: inline-block;
     width: 30px;
     font-size: 18px;
-    color: #03a9f4;
 }
 
 .contact-info ul li span
 {
-    color: #fff;
     font-weight: 300;
 }
 
 .contact-info ul li a
 {
     text-decoration: none;
-    color: #fff;
     font-weight: 300;
 }
 
@@ -144,7 +140,6 @@ body
 
 .contact-info.education h4:nth-child(2)
 {
-    color: #fff;
     font-weight: 500;
     font-size: 1em;
     padding-bottom: 4px;
@@ -153,7 +148,6 @@ body
 
 .contact-info.education h4
 {
-    color: #fff;
     font-weight: 300;
     font-size: 0.8em;
 }
@@ -182,12 +176,29 @@ body
     font-size: 13px;
 }
 
+.contact-info.award
+{
+    padding-top: 30px;
+}
+
+.contact-info.award .box1
+{
+    padding-bottom: 20px;
+}
+
+.contact-info.box1 h4
+{
+    font-size: 16px;
+    font-weight: 400;
+}
+
 .container .right-side
 {
     position: relative;
     background: #fff;
     padding: 40px;
 }
+
 
 .about
 {
@@ -199,12 +210,22 @@ body
     margin-bottom: 0;
 }
 
+.name
+{
+    text-align: center;
+    margin-bottom: 50px;
+    border-bottom: #000 solid 1px;
+}
+
+
 .title2
 {
     color: #003147;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 10px;
+    font-size: 20px;
+    border-bottom: 1px #000 solid;
 }
 
 .about ul
